@@ -1,5 +1,4 @@
 import React from 'react'
-import {FastShoppingCart} from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
 import "./navbar.css";
 
