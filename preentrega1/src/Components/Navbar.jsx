@@ -4,18 +4,28 @@ import CartWidget from './CartWidget'
 
 function Navbar() {
   return (
-    <div>
+    <div className='navbar'>
         <Logo/>
-        <ul>
-            <li>Home</li>
-            <li>Tops</li>
-            <li>Botoms</li>
-            <li>Calzado</li>
-            <li>Accesorios</li>
+        <ul className='navbar-links'>
+            <li className='navbar-item'>
+               <a href="">Home</a> 
+            </li>
+            <li className='navbar-item'>
+               <a href="">Tops</a> 
+            </li>
+            <li className='navbar-item'>
+               <a href="">Bottoms</a> 
+            </li>
+            <li className='navbar-item'>
+               <a href="">Calzado</a> 
+            </li>
+            <li className='navbar-item'>
+               <a href="">Accesorios</a> 
+            </li>
         </ul>
 
         <CartWidget/>
-        
+
     </div>
   )
 }
