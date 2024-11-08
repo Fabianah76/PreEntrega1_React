@@ -7,8 +7,14 @@ function App() {
   
   return (
     <>
-      < Navbar/>
-      < ItemListContainer greeting = "Bienvenidas a Poch. ropa para mujeres" />                
+      <div>
+        < Navbar/>
+      </div>
+      <div>
+        <h1>
+          < ItemListContainer greeting = "¡Bienvenida a Poch.!" />  
+        </h1>
+      </div>              
     </>
   )
 }

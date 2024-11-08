@@ -4,15 +4,19 @@ body {
 }
 .navbar {
     display: flex;
-    height: 120px;
-    background-color:lightgray;
-    justify-content: center;
+    position: relative;
+    height: 150px;
+    background-color: white;
+    justify-content:flex-end ;
     align-items: center;
-}
+    margin-right: 30rem;
+    
+   }
 
 .navbar-links {
     list-style: none;
     display: flex;
+    justify-content: flex-end;
 }
 
 .navbar-item {
@@ -21,7 +25,7 @@ body {
 }
 
 .navbar a:hover {
-    color:chocolate;
+    color: gray;
 }
 .navbar a {
     color: black;
@@ -29,7 +33,10 @@ body {
 }
 
 .logo {
-    width: 150px;
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+        
 }
 
 .badge {
