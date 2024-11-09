@@ -11,19 +11,19 @@ function Navbar() {
         
         <ul className='navbar-links'>
             <li className='navbar-item'>
-                <a href="">Home</a> 
+                <button class="button">Home</button>
             </li>
             <li className='navbar-item'>
-                <a href="">Tops</a> 
+                <button class="button">Tops</button>
             </li>
             <li className='navbar-item'>
-                <a href="">Bottoms</a> 
+                <button class="button">Bottoms</button> 
             </li>
             <li className='navbar-item'>
-                <a href="">Calzado</a> 
+            <button class="button">Calzado</button> 
             </li>
             <li className='navbar-item'>
-                <a href="">Accesorios</a> 
+                <button class="button">Accesorios</button>
             </li>
             </ul>
 
